@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+.header{
+
+    width: 100%;
+    height: 88vh;
+    float: left;
+    background-image: url(concert-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.top_bar{
+    width: 100%;
+    height: 16vh;
+    float: left;
+}
+.top_bar .menubar{
+    width: 33.33%;
+    height: 16vh;
+    float: left;
+}
+.top_bar .menubar ul{
+    float: right;
+    padding: 35px;
+    padding-right: 50px;
+}
+.top_bar .menubar ul li{
+    display: inline-block;
+    padding: 5px 10px;
+    opacity: 0.7;
+}
+.top_bar .menubar ul li:hover{
+    opacity: 1.5;
+}
+.top_bar .menubar ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+
+}
+.top_bar .titlebar{
+    width: 33.33%;
+    height: 16vh;
+    float: left;
+}
+.top_bar .titlebar h2{
+    text-align: center;
+    font-size: 50px;
+    color:white;
+    font-family: Arial;
+    padding-top:20px;
+}
+.top_bar .link_section{
+    width: 33.33%;
+    height: 16vh;
+    float: left;
+
+}
+.top_bar .link_section .button_gorup{
+    padding-top:30px;
+    padding-left: 20px;
+}
+.top_bar .link_section button{
+    float: left;
+    padding:9px 30px;
+    background:transparent;
+    border:none;
+    outline:none;
+    border-radius: 7px;
+    border: 1px solid white;
+    margin-right: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    color:white;
+}
+.top_bar .link_section button:hover{
+    border:2px solid  white;
+}
+.top_bar .link_section .active{
+    background:dodgerblue;
+    border:1px solid dodgerblue;
+
+}
+.top_bar .link_section .active:hover{
+    border:2px solid dodgerblue;
+}
+.container{
+    position: relative;
+    height: 72vh;
+    width: 100%;
+    float:left;
+}
+.container .main_title{
+    width: 50%;
+    position: absolute;
+    left:50%;
+    height: 28vh;
+    top:10vh;
+    transform: translateX(-50%);
+}
+.container .main_title h1{
+    text-align:center;
+    font-size:95px;
+    font-family: forte;
+    transform: rotate(-9deg);
+    color:white;
+}
+.container .sub_title{
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top:38vh;
+    transform: translateX(-50%);
+    text-align: center;
+    color:white;
+    font-size:25px;
+    font-family: Arial;
+}
+.container .title_link{
+    width: 12%;
+    position:absolute;
+    left: 50%;
+    top:43vh;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.container .title_link button{
+    padding:10px 15px;
+    background:dodgerblue;
+    border:none;
+    border:1px solid dodgerblue;
+    border-radius: 7px;
+    color:white;
+    margin-top:5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.container .title_link button:hover{
+    border: 2px solid dodgerblue;
+}
+.headline{
+    height: 16vh;
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+.headline .text{
+    padding-top:5.5vh;
+}
+.headline button{
+    padding:2px 8px;
+    background:dodgerblue;
+    border:none;
+    border-radius: 7px;
+}
+.image_gelary{
+    width: 100%;
+    height: 78vh;
+    float: left;
+}
+.row{
+    width: 64%;
+    height: 50vh;
+    margin:14vh;
+    margin-left:250px;
+
+}
+ .row .col{
+    height: 100%;
+    width: 31%;
+    margin-right: 20px;
+    float: left;
+    border-radius: 7px;
+    font-family: Arial;
+    box-shadow: 0px 0px 1px gray;
+}
+.image_gallery .row .col:last-child{
+    margin-right: 0px;
+
+ }
+ .row .col img{
+     width: 100%;
+     height: 35vh;
+     border-top-left-radius: 7px;
+     border-top-right-radius: 7px;
+ }
+
+.row .col h4{
+    font-size: 600;
+    padding-top:5px;
+    padding-left: 20px;
+    color: #554b4b;
+    
+}
+.row .col p{
+    padding-top:5px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    color:#666666;
+}
+
+.row .col a{
+    text-decoration: none;
+    color:dodgerblue;
+    padding-left: 20px;
+}
+.row .col a:hover{
+    text-decoration: underline;
+}
+.paragrape{
+    width: 100%;
+    height: 45vh;
+    font-family: Arial;
+    float: left;
+    position: relative;
+}
+.paragrape .custom{
+    text-align: center;
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+    color: #252525;
+    font-weight: 300;
+    font-variant-ligatures: common-ligatures;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+   
+}
+.paragrape p{
+    text-align: center;
+    font-weight: 400;
+    color: #808080;
+    
+}
+
+.card{
+    width: 100%;
+    height: 50vh;
+    float: left;
+}
+.card .row{
+    width: 78%;
+    height: 35vh;
+    margin-left: 150px;
+}
+.card .row .col{
+    height: 100%;
+    width: 48%;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    
+}
+.card .row .col:last-child{
+    border-bottom-width: 5px;
+    border-bottom-color: blue;
+
+}
+.card .row .col:last-child{
+    margin-right: 0px;
+}
+.card .row .col img{
+    width: 20vh;
+    height: 20vh;
+    margin-left:10px;
+    margin-top:10px;
+}
+
+.card .row .col .write_paragrap{
+    width: 60%;
+    height: 25vh;
+    float: right;
+    margin:10px;
+    margin-left: auto;
+
+}
+.card .row .col h5{
+    padding-top:15px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    
+}
+.card .row .col p{
+    margin-bottom:30px;
+}
+.card .row .col button{
+    float: right;
+    padding:3px 10px;
+    background:dodgerblue;
+    border:none;
+    border-radius: 10px;
+    
+    color: white;
+    
+}
+.card .row .after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background: #4a90e2;
+    left: 0;
+}
+.video{
+    width: 100%;
+    height: 100vh;
+    float: left;
+    background:#fafafa
+}
+.video h1{
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+    color: #252525;
+    font-weight: 300;
+    text-align: center;
+    margin-top:70px;
+}
+.video .img{
+    width: 40%;
+    height: 56vh;
+    margin-top: 30px;
+    margin-left: 430px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    margin-bottom: 20px;
+}
+.video p{
+    text-align: center;
+    
+}
+.blue{
+    width: 100%;
+    height: 23vh;
+    float: left;
+    background:dodgerblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blue h1{
+    text-align: center;
+    margin-top:60px;
+    color:white;
+}
+.blue h1:hover{
+    text-decoration: underline;
+}
+.black_site{
+    width: 100%;
+    height: 90vh;
+    float: left;
+    background:#263238;
+    color:white;
+}
+.black_site .row{
+    width: 83%;
+    height: 70vh;
+    margin:10vh;
+    margin-left:150px;
+}
+.black_site .row .col{
+    height: 100%;
+    width: 22%;
+    margin-right: 20px;
+    float: left;
+    font-family: Arial;
+    border: none;
+
+}
+.black_site .row .col h5{
+    margin-left: 20px;
+    margin-top:15px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.black_site .row .col p{
+    color:white;
+}
+.black_site .row .col a{
+    text-decoration:none;
+    color:white;
+    padding-top: 10px;
+}
+.black_site .row .col input{
+    margin-left:20px;
+    padding:10px;
+    border:none;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    margin-bottom: 10px;
+
+
+}
+.black_site .row .col button{
+    margin-left:20px;
+    padding:10px 57px;
+    border:none;
+    color:white;
+    background: rgb(62, 191, 241);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.black_site .row .col button:hover{
+    border:2px solid rgb(62, 191, 241);
+}
+.footer{
+    width: 50%;
+    height: 13vh;
+    float: left;
+    background:black;
+    border:none;    
+   
+}
+
+.footer p{
+    color:white;
+    margin-left:20px;
+    margin-top:40px;
+   
+}
+.footer p:hover{
+    opacity: .5;
+}
+.lastitem{
+    width: 50%;
+    height: 13vh;
+    float: right;
+    background:black;
+    border:none;
+}
+.lastitem ul{
+    width:30%;
+    height: 5vh;
+    float: right;
+    margin-top:25px;
+    text-align: center;
+    margin-right: 50px;
+}
+.lastitem ul li{
+    display: inline-block;
+    padding:10px;
+    text-align: center;
+    
+}
+
